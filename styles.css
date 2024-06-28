@@ -81,13 +81,13 @@ img#logo{
 }
 
 .hero_section_container{
-    margin-top: 15%;
-    margin-left: 30%;
+    margin-top: 17%;
+    margin-left: 28%;
     width: 49.7%;
 }
 
 .typewriter_container{
-    width: 79%;
+    width: 99%;
 }
 
 h1.typewriter{
@@ -125,6 +125,7 @@ h1.typewriter{
 
 .product_text{
     justify-self: center;
+    margin-left: 1.7%;
 }
 
 h1.product_info{
@@ -182,6 +183,54 @@ h1.card_item{
     height: 90%;
     transition: all 0.35s ease-in-out;
     
+}
+
+.footer_section{
+    background-color: #E5E4E2;
+    width: auto;
+    height: 50%;
+    border-radius: 4%;
+}
+
+.footer_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1#footer_investing_heading{
+    font-size: 1.5rem;
+}
+
+.investing_link_container{
+}
+
+.investing_links{
+    list-style: none;
+    padding-left: 10%;
+}
+
+.investing_item{
+    padding: 5% 0;
+}
+
+a.item{
+    color: #131313;
+    text-decoration: none;
+    
+}
+
+.about_link_container{
+    margin-left: 10%
+}
+
+.about_links{
+    list-style: none;
+    padding-left: 5%;
+}
+
+.about_item{
+    padding: 2% 0;
 }
 
 
